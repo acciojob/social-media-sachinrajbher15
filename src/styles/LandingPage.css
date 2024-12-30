@@ -1,0 +1,54 @@
+.landing-page{
+    margin-left: 30px;
+    margin-right: 30px;
+    /* background-color: rgb(226, 211, 240); */
+}
+/* Form Container */
+form {
+    display: flex;
+    align-items: center; /* Align items vertically in the center */
+    gap: 15px; /* Space between the form elements */
+    flex-wrap: nowrap; /* Ensure all items stay in one row */
+  }
+  
+  /* Label Style */
+  form label {
+    font-size: 1rem;
+    font-weight: bold;
+    margin-right: 10px;
+    width: 120px; /* Set a fixed width for labels to keep them aligned */
+  }
+  
+  /* Input, Select, Textarea and Button Style */
+  form input, form select, form textarea, form button {
+    padding: 8px 15px;
+    font-size: 1rem;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    width: auto;
+    flex-grow: 1; /* Allow elements to grow to fill available space */
+    min-width: 150px; /* Ensure elements have a minimum width */
+  }
+  
+  /* Button Style */
+  form button {
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+    padding: 10px 20px;
+    flex-grow: 0; /* Prevent the button from expanding */
+    width: auto;
+  }
+  
+  form button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Adjust the width for textarea */
+  form textarea {
+    resize: none; /* Disable resizing */
+    max-width: 250px; /* Limit the max width */
+    width: 100%; /* Make textarea width flexible */
+  }
+  
+  

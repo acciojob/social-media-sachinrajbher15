@@ -1,0 +1,13 @@
+.all-posts-page{
+    background-color: rgb(208, 191, 224);
+    margin: 30px;
+    padding: 10px;
+}
+.all-post{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 20px;
+    margin-left: 50px;
+}

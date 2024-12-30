@@ -1,0 +1,11 @@
+.view-post{
+    margin: 30px;
+    display: flex;
+    justify-content: center;
+    align-items:flex-start;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 10px;
+    border: 1px solid black;
+    padding: 20px;
+}
