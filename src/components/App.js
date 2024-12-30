@@ -16,8 +16,8 @@ const App = () => {
       <Router>
         <div className="app-container">
           <header className="header-container">
-            {/* <h1>ThinkPost – A space for thoughts and posts.</h1> */}
-            <h1 className="heading"><span className="large-text">ThinkPost</span> – A space for thoughts and posts.</h1>
+            <h1>GenZ</h1> 
+            {/* <h1 className="heading"><span className="large-text">ThinkPost</span> – A space for thoughts and posts.</h1>*/}
             <nav>
               <ul>
                 <li><Link to="/">Home</Link></li>
